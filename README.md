@@ -1,21 +1,21 @@
 # LensCrafters
 
 LensCrafters is a photographer portfolio website developed using ReactJs with Typescript and Tailwind with all its amazing features and Framer motion and the cursor was fixed too.
-**You can see it here: _[LensCrafters](https://lens-crafters-6418dppem-amrabouelkair.vercel.app/)_**
+**You can see it here: _[LensCrafters](https://lens-crafters.vercel.app/)_**
 
 ## Screenshots
 
 |                                            |                                                 |
 | ------------------------------------------------------- | :-----------------------------------------------------: |
-| ![1](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/ffc02c5b-38b0-4f9e-9ecf-02b3d0657385)| ![2](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/20e92c8b-1aaf-425c-8ad2-717646aa2726)|
-
+| ![1](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/2ac01ea5-ada1-4434-b248-bbff2f789c43)| ![2](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/90c0a23d-b020-4bd7-b559-0818611101c6) |
 
 
 |                                         |                                                 |
 | ------------------------------------------------------- | :-----------------------------------------------------: |
-|      ![3](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/98c12716-cb92-49aa-ab9e-20639072670f)   |   ![4](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/ee9d0126-8de5-4475-a37b-fa7def337da0) |
-|     ![5](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/ae0d8440-1700-4368-b8bc-4ab1a1d9ce0a)   |  ![6](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/71f3f1a3-0ce6-4e86-93ac-ffc0eba79db2) |
-|   ![7](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/fbc17ac6-4aa5-4e21-9e35-365960045a7e)     |  ![8](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/f0e69143-18c9-41dd-a132-c94272a551c6)   |
+| ![3](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/a1628658-07f8-439c-82a0-5b4d263afe8a)  |  ![4](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/99d2303c-2c4e-4e6a-9488-07cd1e3ed529)  |
+|  ![5](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c0624bb4-a35d-47b1-82d6-be982910f21f) |  ![6](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/2ebe8834-0d4d-4861-b6e7-4f84ba970862)  |
+| ![7](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/dc7ad118-33c3-4a9a-9656-f55f7758793b)  |  ![8](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/4d7b1a43-b22a-48a7-b959-d05f78542a78)  |
+
 
 ## Introduction
 
