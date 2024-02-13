@@ -6,9 +6,6 @@ import { AnimatePresence } from "framer-motion";
 
 import { Route, Routes, useLocation } from "react-router-dom";
 
-// function App() {
-//
-//   console.log(location);
 
 const AnimRoutes = () => {
   const location = useLocation();
