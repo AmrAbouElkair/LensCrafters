@@ -1,48 +1,52 @@
-// import { a } from "react-router-dom";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import { CursorContext } from "../../context/CursorContext";
 
 const Footer = () => {
+  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+
   return (
     <footer className="fixed z-30 flex h-[100px] w-full items-center px-[30px] lg:h-[140px] lg:px-[100px]">
       <div className="flex w-full flex-col justify-between lg:flex-row lg:items-center">
         <div className="flex items-center justify-start lg:justify-center">
-          <a
-            //   onMouseEnter={mouseEnterHandler}
-            //   onMouseLeave={mouseLeaveHandler}
-            href="/"
+          <Link
+            onMouseEnter={mouseEnterHandler}
+            onMouseLeave={mouseLeaveHandler}
+            to="/"
             className="h1 flex items-center justify-center text-[50px] dark:text-slate-200"
           >
             LensCrafters
-          </a>
+          </Link>
         </div>
         <nav
-          // onMouseEnter={mouseEnterHandler}
-          // onMouseLeave={mouseLeaveHandler}
+          onMouseEnter={mouseEnterHandler}
+          onMouseLeave={mouseLeaveHandler}
           className="hidden items-center justify-center gap-x-24 lg:flex"
         >
-          <a
-            href="/"
+          <Link
+            to="/"
             className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
           >
             Home
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            to="/about"
             className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
           >
             About
-          </a>
-          <a
-            href="/portfolio"
+          </Link>
+          <Link
+            to="/portfolio"
             className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
           >
             Portfolio
-          </a>
-          <a
-            href="/contact"
+          </Link>
+          <Link
+            to="/contact"
             className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
           >
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
     </footer>

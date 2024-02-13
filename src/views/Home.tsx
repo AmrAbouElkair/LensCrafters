@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import HomeImg from "../../assets/images/Home.jpg";
+import HomeImg from "../assets/images/Home.jpg";
 
 // import motion
 import { motion } from "framer-motion";
 // import transition
-import { transition1 } from "../../assets/transitions";
-import { CursorContext } from "../../context/CursorContext";
+import { transition1 } from "../assets/transitions";
+import { CursorContext } from "../context/CursorContext";
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -19,7 +19,7 @@ const Home = () => {
         transition={transition1}
         className="contaienr mx-auto h-full"
       >
-        <div className="flex flex-col lg:flex-row justify-center">
+        <div className="flex flex-col justify-center lg:flex-row">
           <motion.div
             initial={{ opacity: 0, y: "-50%" }}
             animate={{ opacity: 1, y: 0 }}
@@ -27,12 +27,12 @@ const Home = () => {
             transition={transition1}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="w-full lg:w-auto pt-36 pb-10 lg:pt-0 lg:pb-0 z-10 flex flex-col justify-center items-center lg:items-start lg:-mr-10"
+            className="z-10 flex w-full flex-col items-center justify-center pb-10 pt-36 lg:-mr-10 lg:w-auto lg:items-start lg:pb-0 lg:pt-0"
           >
             <h1 className="h1 dark:text-slate-400">
               Photographer <br /> & Film Maker
             </h1>
-            <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12 dark:text-slate-600">
+            <p className="mb-4 font-primary text-[26px] dark:text-slate-600 lg:mb-12 lg:text-[36px]">
               Alexandria, EG
             </p>
             <Link to="/contact" className="btn">
@@ -46,7 +46,7 @@ const Home = () => {
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             transition={transition1}
-            className="flex justify-center max-h-[550px] w-auto lg:max-w-[800px] lg:max-h-max"
+            className="flex max-h-[550px] w-auto justify-center lg:max-h-max lg:max-w-[800px]"
           >
             <img src={HomeImg} alt="HomeImg" className="object-cover" />
           </motion.div>

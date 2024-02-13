@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { CursorContext } from "../context/CursorContext";
+import { CursorContext } from "../../context/CursorContext";
 
 const ThemeBtn = () => {
   const [isChecked, setIsChecked] = useState(false);

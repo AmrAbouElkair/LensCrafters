@@ -18,33 +18,33 @@ const menuVariants = {
 const MobileNav = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className="lg:hidden text-primary dark:text-slate-200">
-      <div className="text-3xl cursor-pointer">
+    <nav className="text-primary dark:text-slate-200 lg:hidden">
+      <div className="cursor-pointer text-3xl">
         <i className="fa-solid fa-bars" onClick={() => setOpenMenu(true)}></i>
       </div>
       <motion.div
         variants={menuVariants}
         initial="hidden"
         animate={openMenu ? "show" : ""}
-        className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-10 dark:bg-slate-900"
+        className="absolute right-0 top-0 z-10 h-screen w-full max-w-xs bg-white shadow-2xl dark:bg-slate-900"
       >
-        <div className="absolute text-4xl left-4 top-14 z-30 text-primary cursor-pointer">
+        <div className="absolute left-4 top-14 z-30 cursor-pointer text-4xl text-primary">
           <i
             className="fa-solid fa-xmark dark:text-slate-200"
             onClick={() => setOpenMenu(false)}
           ></i>
         </div>
-        <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-primary font-bold text-3xl">
-          <li className="hover:scale-110 duration-300 dark:text-slate-300">
+        <ul className="flex h-full flex-col items-center justify-center gap-y-8 text-3xl font-bold text-primary">
+          <li className="duration-300 hover:scale-110 dark:text-slate-300">
             <Link to="/">Home</Link>
           </li>
-          <li className="hover:scale-110 duration-300 dark:text-slate-300">
+          <li className="duration-300 hover:scale-110 dark:text-slate-300">
             <Link to="/about">About</Link>
           </li>
-          <li className="hover:scale-110 duration-300 dark:text-slate-300">
+          <li className="duration-300 hover:scale-110 dark:text-slate-300">
             <Link to="/portfolio">Portfolio</Link>
           </li>
-          <li className="hover:scale-110 duration-300 dark:text-slate-300">
+          <li className="duration-300 hover:scale-110 dark:text-slate-300">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
