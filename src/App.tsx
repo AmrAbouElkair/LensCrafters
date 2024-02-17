@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import AnimRoutes from "./Routes/AnimRoutes";
 
 import { motion } from "framer-motion";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const { cursorVariants, cursorBG } = useContext(CursorContext);
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Header />
         <AnimRoutes />
+        <Footer />
       </Router>
       <ThemeBtn />
       <motion.div

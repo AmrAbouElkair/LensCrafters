@@ -41,7 +41,7 @@ Developed with React.js and leveraging its capabilities, the Photographer Portfo
 
 👉 **Pnpm Package Manager**: Pnpm is utilized since it is significantly quicker and more reliable than yarn and npm.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -53,7 +53,7 @@ Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- Primarily, it operates with [pnpm](https://pnpm.io/); however, [npm](https://www.npmjs.com/) may also be used.
+- Primarily, it operates with [pnpm](https://pnpm.io/); however, [npm](https://www.npmjs.com/) may also be used just remove `pnpm-lock.yaml` File.
 
 **Cloning the Repository**
 
@@ -92,19 +92,18 @@ Open [http://localhost:5173/](http://localhost:5173/) in your browser to view th
 
 @layer base {
   body {
-    @apply overflow-hidden text-primary font-secondary bg-white;
+    @apply overflow-hidden bg-white font-secondary text-primary;
   }
   .h1 {
-    @apply text-[54px] lg:text-[70px] xl:text-[100px] font-primary font-bold capitalize leading-[120%] tracking-[-0.05em] mb-2;
+    @apply mb-2 font-primary text-[54px] font-bold capitalize leading-[120%] tracking-[-0.05em] lg:text-[70px] xl:text-[100px];
   }
   .section {
-    @apply h-screen w-screen dark:bg-black duration-200;
+    @apply h-screen w-screen duration-200 dark:bg-black;
   }
   .btn {
-    @apply py-[18px] px-[50px] h-[66px] flex items-center justify-center uppercase font-secondary bg-primary text-white rounded-lg font-bold shadow-2xl dark:bg-slate-700 text-lg;
+    @apply flex h-[66px] items-center justify-center rounded-lg bg-primary px-[50px] py-[18px] font-secondary text-lg font-bold uppercase text-white shadow-2xl dark:bg-slate-700;
   }
 }
-
 ```
 
 </details>
@@ -139,7 +138,6 @@ export default {
   },
   plugins: [],
 };
-
 ```
 
 </details>
@@ -148,12 +146,12 @@ export default {
 
 **A few screenshots from the project**
 
-|                                            |                                                 |
-| ------------------------------------------------------- | :-----------------------------------------------------: |
-|![Lens1](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/86ff6429-769f-4f97-a829-c4336b81798d) | ![Lens2](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/5dd9b4c4-7dcf-45c5-97e1-522a737f67ae) |
+|                                                                                                              |                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------: |
+| ![Lens1](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/86ff6429-769f-4f97-a829-c4336b81798d) | ![Lens2](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/5dd9b4c4-7dcf-45c5-97e1-522a737f67ae) |
 
-|                                         |                                                 |
-| ------------------------------------------------------- | :-----------------------------------------------------: |
+|                                                                                                              |                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------: |
 | ![Lens3](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/11d39d0b-c5a5-4d7c-a71a-e247e5dc6902) | ![Lens4](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c09ed4d5-58e1-4499-87ce-158d5842644f) |
 | ![Lens5](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/85f9271e-04e8-429a-95d3-fa8d15d801ed) | ![Lens6](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c77868f6-b994-45cc-baf6-46ee4e2c6ab1) |
 | ![Lens7](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/f12cb6ff-555b-4c3b-b8ea-19f5eea4bf40) | ![Lens8](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/cf0c3911-4317-40be-9bae-3198f5dc5223) |

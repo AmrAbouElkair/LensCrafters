@@ -1,53 +1,73 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 import { CursorContext } from "../../context/CursorContext";
 
 const Footer = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <footer className="fixed z-30 flex h-[100px] w-full items-center px-[30px] lg:h-[140px] lg:px-[100px]">
-      <div className="flex w-full flex-col justify-between lg:flex-row lg:items-center">
-        <div className="flex items-center justify-start lg:justify-center">
+    <footer className="bg-gray-100 shadow dark:bg-gray-950">
+      <div className="mx-auto w-full max-w-[90rem] p-4 md:py-8">
+        <motion.div className="sm:flex sm:items-center sm:justify-between">
           <Link
+            to="/"
+            className="font-primary text-3xl font-bold dark:text-gray-200 sm:text-4xl"
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            to="/"
-            className="h1 flex items-center justify-center text-[50px] dark:text-slate-200"
           >
             LensCrafters
           </Link>
-        </div>
-        <nav
-          onMouseEnter={mouseEnterHandler}
-          onMouseLeave={mouseLeaveHandler}
-          className="hidden items-center justify-center gap-x-24 lg:flex"
-        >
-          <Link
-            to="/"
-            className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
-          >
-            About
-          </Link>
-          <Link
-            to="/portfolio"
-            className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
-          >
-            Portfolio
-          </Link>
-          <Link
-            to="/contact"
-            className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
-          >
-            Contact
-          </Link>
-        </nav>
+          <motion.ul>
+            <nav
+              onMouseEnter={mouseEnterHandler}
+              onMouseLeave={mouseLeaveHandler}
+              className="hidden items-center justify-center gap-x-12 lg:flex"
+            >
+              <li>
+                <Link
+                  to="/"
+                  className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/portfolio"
+                  className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="text-[#545657] duration-300 hover:text-primary dark:text-[#9c9f9f]"
+                >
+                  Contact
+                </Link>
+              </li>
+            </nav>
+          </motion.ul>
+        </motion.div>
+        <hr className="my-6 border-gray-400 dark:border-gray-700 sm:mx-auto lg:my-8" />
+        <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+          © 2023{" "}
+          <a href="https://flowbite.com/" className="hover:underline">
+            Lenscrafters™
+          </a>
+          . All Rights Reserved.
+        </span>
       </div>
     </footer>
   );
