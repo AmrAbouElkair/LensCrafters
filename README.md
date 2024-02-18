@@ -17,7 +17,6 @@
 6. 📷 [Screenshots](#screenshots)
 7. ![jigsaw (1)](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/316cd490-12f9-4b15-9977-f0d202c1d150) [Contribute](#contribute)
 
-
 LensCrafters offers a modern and responsive digital showcase for photographers, featuring a meticulously crafted portfolio interface. The website is built on ReactJS, ensuring seamless user interactions and dynamic content presentation. It boasts a sophisticated aesthetic, tailored through Tailwind CSS, and enriched with fluid animations courtesy of Framer Motion. Additionally, LensCrafters is designed with user comfort in mind, offering a dark mode option to cater to varying viewing preferences. This platform is not just a website; it’s an immersive visual experience designed to highlight the artistry of photography in a digital space.
 
 **Here is a live preview for the project _[LensCrafters](https://lens-crafters.vercel.app/)_!**
@@ -164,30 +163,7 @@ export default {
 ## <a name="contribute">![jigsaw](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/fa2848f1-94b6-4951-9334-fb9ec40c16a7) Contribute</a>
 
 1. Fork the Project
-2. Create your Feature Branch (git checkout -b ``new branch``)
-3. Commit your Changes (git commit -m 'Add some ``commit name``)
-4. Push to the Branch (git push origin ``new branch``)
+2. Create your Feature Branch (git checkout -b `new branch`)
+3. Commit your Changes (git commit -m 'Add some `commit name`)
+4. Push to the Branch (git push origin `new branch`)
 5. Open a Pull Request
-
-## MIT License
-
-Copyright (c) 2024 Amr M.AbouElkair
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
