@@ -1,27 +1,39 @@
-<div>
-  <h1>A Photographer Portfolio Website</h1>
+  <div align="center">
+  <img src="https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/b2191e86-53d3-4eb5-a50d-b415243db26d" alt="mainImg"/>
   <div>
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
      <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=1786ab" alt="react" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
-    <br/>
-  <p>LensCrafters offers a modern and responsive digital showcase for photographers, featuring a meticulously crafted portfolio interface. The website is built on ReactJS, ensuring seamless user interactions and dynamic content presentation. It boasts a sophisticated aesthetic, tailored through Tailwind CSS, and enriched with fluid animations courtesy of Framer Motion. Additionally, LensCrafters is designed with user comfort in mind, offering a dark mode option to cater to varying viewing preferences. This platform is not just a website; it’s an immersive visual experience designed to highlight the artistry of photography in a digital space.</p>
-</div>
+  </div>
+
+## 📋 <a name="table">Table of Contents</a>
+
+1. ![idea](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c8e0ad20-4a63-4fa0-8c4f-6c8368ed0adf) [Introduction](#introduction)
+2. 🤖 [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
+6. 📷 [Screenshots](#screenshots)
+7. ![jigsaw (1)](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/316cd490-12f9-4b15-9977-f0d202c1d150) [Contribute](#contribute)
+
+
+LensCrafters offers a modern and responsive digital showcase for photographers, featuring a meticulously crafted portfolio interface. The website is built on ReactJS, ensuring seamless user interactions and dynamic content presentation. It boasts a sophisticated aesthetic, tailored through Tailwind CSS, and enriched with fluid animations courtesy of Framer Motion. Additionally, LensCrafters is designed with user comfort in mind, offering a dark mode option to cater to varying viewing preferences. This platform is not just a website; it’s an immersive visual experience designed to highlight the artistry of photography in a digital space.
 
 **Here is a live preview for the project _[LensCrafters](https://lens-crafters.vercel.app/)_!**
 
-## <a id="introduction" name="introduction">🤖 Introduction</a>
+## <a name="introduction"> ![idea](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c8e0ad20-4a63-4fa0-8c4f-6c8368ed0adf) Introduction</a>
 
 Developed with React.js and leveraging its capabilities, the Photographer Portfolio Website presents various images types, showcasing comprehensive information in a well-designed for an enhanced user experience.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack">🤖 Tech Stack</a>
 
 - React.js
 - TypeScript
 - Tailwind CSS
 - React Router Dom
 - Context-Api
+- Vite
 
 ## <a name="features">🔋 Features</a>
 
@@ -142,16 +154,40 @@ export default {
 
 </details>
 
-## <a name="more">🚀 More</a>
+## <a name="screenshots"> 📷 Screenshots</a>
 
-**A few screenshots from the project**
+![Lens1](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/9b29e42e-927f-4a9b-81e8-1f3300f2db11)
+![Lens3](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/1e615d2a-eb70-4e2d-bf9f-d9ec4be8354a)
+![Lens5](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/9846bf87-0bd4-4253-9ef6-99fc1010f371)
+![Lens7](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/15794607-2456-4597-b509-b045ed6a3be3)
 
-|                                                                                                              |                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------: |
-| ![Lens1](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/86ff6429-769f-4f97-a829-c4336b81798d) | ![Lens2](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/5dd9b4c4-7dcf-45c5-97e1-522a737f67ae) |
+## <a name="contribute">![jigsaw](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/fa2848f1-94b6-4951-9334-fb9ec40c16a7) Contribute</a>
 
-|                                                                                                              |                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------: |
-| ![Lens3](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/11d39d0b-c5a5-4d7c-a71a-e247e5dc6902) | ![Lens4](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c09ed4d5-58e1-4499-87ce-158d5842644f) |
-| ![Lens5](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/85f9271e-04e8-429a-95d3-fa8d15d801ed) | ![Lens6](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/c77868f6-b994-45cc-baf6-46ee4e2c6ab1) |
-| ![Lens7](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/f12cb6ff-555b-4c3b-b8ea-19f5eea4bf40) | ![Lens8](https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/cf0c3911-4317-40be-9bae-3198f5dc5223) |
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b ``new branch``)
+3. Commit your Changes (git commit -m 'Add some ``commit name``)
+4. Push to the Branch (git push origin ``new branch``)
+5. Open a Pull Request
+
+## MIT License
+
+Copyright (c) 2024 Amr M.AbouElkair
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
