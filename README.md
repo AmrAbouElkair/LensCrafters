@@ -1,3 +1,4 @@
+   <h1 align="center">LensCrafter <img src="https://github.com/AmrAbouElkair/Nike-Store/assets/83710148/34b02ef8-faa3-4f26-8029-9f3bb0590422" width="25" alt="Logo" /> </h1>
   <div align="center">
   <img src="https://github.com/AmrAbouElkair/LensCrafters/assets/83710148/b2191e86-53d3-4eb5-a50d-b415243db26d" alt="mainImg"/>
   <div>
@@ -94,7 +95,7 @@ Open [http://localhost:5173/](http://localhost:5173/) in your browser to view th
 </details>
 
 <details>
-<summary><code>globals.css</code></summary>
+<summary><code>index.css</code></summary>
 
 ```css
 @tailwind base;
